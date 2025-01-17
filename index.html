@@ -30,13 +30,13 @@
     .bg-dark {
       color: black;
     }
-    
+
     .navbar {
-            background-image: url(https://kerala.me/wp-content/uploads/2017/01/green-homepage-bg.jpg);
-            background-position: left top;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
+      background-image: url(https://kerala.me/wp-content/uploads/2017/01/green-homepage-bg.jpg);
+      background-position: left top;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
 
     .city {
       color: yellow;
@@ -53,7 +53,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       height: 600px;
-     
+
 
 
     }
@@ -73,7 +73,7 @@
 
     .paragrahp {
       font-size: large;
-      font-weight: 350;
+      font-weight: 500;
       padding-right: 20px;
       padding-right: 20px;
       color: black;
@@ -103,11 +103,17 @@
       transform: scale(1.15);
       transition: all 0.5s;
     }
-   
+
+    body {
+      background: url(https://t3.ftcdn.net/jpg/07/04/45/60/360_F_704456052_kquKIl9WcOndDZSYn0bgUULv7tw3P33M.jpg);
+      background-size: cover;
+      background-position: right;
+      background-attachment: fixed;
+    }
   </style>
 </head>
 
-<body >
+<body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">KOZHIKODEN <span class="city">CITY</span> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -117,7 +123,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto py-3 pe-4">
         <li class="nav-item">
-          <a class="nav-link btn-danger me-4 effect" href="./Amazon.html">HOME</a>
+          <a class="nav-link btn-danger me-4 effect" href="./index.html">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-item nav-link btn-success me-4 effect" href="#about">ABOUT</a>
@@ -125,12 +131,24 @@
         <li class="nav-item">
           <a class="nav-item nav-link me-4 effect" href="#">FESTIVALS</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-item nav-link me-4 effect" href="#">DESTINATION</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">DESTINATION</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#!">Town Area</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#!">North</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#!">South</a></li>
+          </ul>
         </li>
-        
+
         <li class="nav-item">
-          <a href="#" class="nav-item me-4 btn p-4 py-2 px-8 rounded-lg text-white">Explore experience</a>
+          <a href="./food.html" class="nav-item me-4 btn p-4 py-2 px-8 rounded-lg text-white">Explore </a>
         </li>
       </ul>
     </div>
@@ -151,89 +169,98 @@
     </div>
   </div>
   <div class="container-fluid">
-    <a href="./food.html"><div class="row">
-      <div class="col-md-2 col-xs-3 mb-3">
-        <div class="card" style="width:100%">
-          <img class="card-img-top"
-            src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d934a8aad3a12d83db0e22_food-and-drinks-category-icon-large-directory-webflow-ecommerce-template.svg"
-            alt="Card image">
-          <div class="card-body"></a>
-           <h4 class="card-title text-center effect">Food & drinks</h4> 
+    <a href="./food.html">
+      <div class="row">
+        <div class="col-md-2 col-xs-3 mb-3">
+          <div class="card" style="width:100%">
+            <img class="card-img-top"
+              src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d934a8aad3a12d83db0e22_food-and-drinks-category-icon-large-directory-webflow-ecommerce-template.svg"
+              alt="Card image">
+            <div class="card-body">
+    </a>
+    <h4 class="card-title text-center effect">Food & drinks</h4>
 
 
-          </div>
-        </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-2 col-xs-3 mb-3">
+    <a href="./art.html">
+      <div class="card" style="width:100%">
+        <img class="card-img-top"
+          src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d934680038c328636dfded_arts-and-culture-category-icon-large-directory-webflow-ecommerce-template.svg"
+          alt="Card image">
+        <div class="card-body">
+    </a>
+    <h4 class="card-title text-center effect">Art & Culture</h4>
+
+
+  </div>
+  </div>
+  </div>
+  <div class="col-md-2 col-xs-3 mb-3">
+    <div class="card" style="width:100%">
+      <img class="card-img-top"
+        src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d933d2e6edac391a8983aa_entertainment-category-icon-large-directory-webflow-ecommerce-template.svg"
+        alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title text-center effect">Entertaiment</h4>
+
+
       </div>
-     <div class="col-md-2 col-xs-3 mb-3">
-      <a href="./art.html"> <div class="card" style="width:100%">
-          <img class="card-img-top"
-            src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d934680038c328636dfded_arts-and-culture-category-icon-large-directory-webflow-ecommerce-template.svg"
-            alt="Card image">
-          <div class="card-body"></a> 
-            <h4 class="card-title text-center effect">Art & Culture</h4>
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-xs-3 mb-3">
-        <div class="card" style="width:100%">
-          <img class="card-img-top"
-            src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d933d2e6edac391a8983aa_entertainment-category-icon-large-directory-webflow-ecommerce-template.svg"
-            alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title text-center effect">Entertaiment</h4>
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-xs-3 mb-3">
-        <a href="./destinatio.html"><div class="card" style="width:100%">
-          <img class="card-img-top"
-            src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d933952f3a59e20c4854cc_outdoors-category-icon-large-directory-webflow-ecommerce-template.svg"
-            alt="Card image">
-          <div class="card-body"></a>
-            <h4 class="card-title text-center effect">Outdoors</h4>
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-xs-3 mb-3">
-        <div class="card" style="width:100%">
-          <img class="card-img-top"
-            src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d9336b42cc837de75538e2_nightlife-category-icon-large-directory-webflow-ecommerce-template.svg"
-            alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title text-center effect">Nightlife</h4>
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-xs-3 mb-3">
-        <div class="card" style="width:100%">
-          <img class="card-img-top"
-            src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d933495ed04c6aa077cf2c_activities-category-icon-large-directory-webflow-ecommerce-template.svg"
-            alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title text-center effect">Activities</h4>
-
-
-          </div>
-        </div>
-      </div>
-
-
     </div>
+  </div>
+  <div class="col-md-2 col-xs-3 mb-3">
+    <a href="./destinatio.html">
+      <div class="card" style="width:100%">
+        <img class="card-img-top"
+          src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d933952f3a59e20c4854cc_outdoors-category-icon-large-directory-webflow-ecommerce-template.svg"
+          alt="Card image">
+        <div class="card-body">
+    </a>
+    <h4 class="card-title text-center effect">Outdoors</h4>
+
+
+  </div>
+  </div>
+  </div>
+  <div class="col-md-2 col-xs-3 mb-3">
+    <div class="card" style="width:100%">
+      <img class="card-img-top"
+        src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d9336b42cc837de75538e2_nightlife-category-icon-large-directory-webflow-ecommerce-template.svg"
+        alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title text-center effect">Nightlife</h4>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2 col-xs-3 mb-3">
+    <div class="card" style="width:100%">
+      <img class="card-img-top"
+        src="https://cdn.prod.website-files.com/63d80e1a68aeab2b4ad3c4ac/63d933495ed04c6aa077cf2c_activities-category-icon-large-directory-webflow-ecommerce-template.svg"
+        alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title text-center effect">Activities</h4>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  </div>
 
   </div>
   <div class="container-fluid p-4">
     <div class="row align-items-center ">
       <div class="col-12 col-sm-6">
         <h2 class="h1">Why vist <span style="color: gold;"> us?</span></h2>
-        <p style="align-items: center;" class="paragrahp">കേരളത്തിന്റെ ഏറ്റവും നല്ല ബിരിയാണി മണവും മനുഷ്യ രാക്ഷിക്ക് വേണ്ട എല്ലാ തരാം ഭക്ഷണങ്ങളും കിട്ടുന്നതും  കേരളീയരുടെ സ്വകാര്യ അഹങ്കാരവും  മലബാറിന്റെ പാരമ്പര്യം കാത്തു സൂക്ഷിച്ചു വരുന്ന ഏക ജില്ലയാണ് കോഴിക്കോട്.യാത്ര പ്രേമികളുടെ കണ്ണിന് കുളിർമ ഏകാനുള്ള കാഴ്ചകൾ കൊണ്ട് വിസ്മയിപ്പിക്കുന്ന പല ഇടങ്ങളും ഇവിടെ ഉള്ളതിനാൽ പുറം നാടുകളിൽ നിന്നു പോലും ആളുകൾ ഇവിടേക്ക് ഒഴികി എത്തുകയാണ്.</p>
+        <p style="align-items: center;" class="paragrahp">കേരളത്തിന്റെ ഏറ്റവും നല്ല ബിരിയാണി മണവും മനുഷ്യ രാക്ഷിക്ക്
+          വേണ്ട എല്ലാ തരാം ഭക്ഷണങ്ങളും കിട്ടുന്നതും കേരളീയരുടെ സ്വകാര്യ അഹങ്കാരവും മലബാറിന്റെ പാരമ്പര്യം കാത്തു
+          സൂക്ഷിച്ചു വരുന്ന ഏക ജില്ലയും കൂടിയാണ് കോഴിക്കോട്.യാത്ര പ്രേമികളുടെ കണ്ണിന് കുളിർമ ഏകാനുള്ള കാഴ്ചകൾ കൊണ്ട്
+          വിസ്മയിപ്പിക്കുന്ന പല ഇടങ്ങളും ഇവിടെ ഉള്ളതിനാൽ പുറം നാടുകളിൽ നിന്നു പോലും ആളുകൾ ഇവിടേക്ക് ഒഴികി എത്തുകയാണ്</p>
         <a href="#" class="nav-item me-4 btn p-4 py-2 px-8 rounded-lg text-white mt-2">Explore experience</a>
       </div>
       <div class="col-md-6 col-sm-12 mb-3 mt-4">
@@ -250,90 +277,88 @@
     <div class="row shadow">
       <div class="col-md-4 col-sm-12">
         <div class="card" style="width:100%">
-        <a href="./destinatio.html"> <img style="height: 300px;" class="card-img-top image-zoom"
-            src="https://www.keralatourism.org/images/malabar/static-banner/large/Beaches_of_Malabar-18022020050906.jpg"
-            alt="Card image">
-          <div class="card-body"></a>
-            <h4
-              class="text-center effect">Beaches</h4>
+          <a href="./destinatio.html"> <img style="height: 300px; border-radius: 20px;" class="card-img-top image-zoom"
+              src="https://www.keralatourism.org/images/malabar/static-banner/large/Beaches_of_Malabar-18022020050906.jpg"
+              alt="Card image">
+            <div class="card-body">
+          </a>
+          <h4 class="text-center effect">Beaches</h4>
 
-          </div>
         </div>
-
       </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="card" style="width:100%">
-          <img style="height: 300px;" class="card-img-top" src="https://www.keralatourism.org/images/malabar/static-banner/large/Hill_Stations_of_Malabar-10122019110149.jpg"
-            alt="Card image">
-          <div class="card-body">
-            <h4
-              class=" text-center effect">Hill Station</h4>
 
-
-          </div>
-        </div>
-
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="card" style="width:100%">
-          <img style="height: 300px;" class="card-img-top"
-            src="https://www.keralatourism.org/images/malabar/static-banner/large/Waterfalls_of_Malabar-28022020103914.jpg"
-            alt="Card image">
-          <div class="card-body">
-            <h4
-              class="text-center effect">Waterfalls</h4>
-
-
-          </div>
-        </div>
-
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="card" style="width:100%">
-          <img style="height: 300px;" class="card-img-top"
-            src="https://media.istockphoto.com/id/1489566726/photo/leopard-in-sri-lanka.jpg?s=612x612&w=0&k=20&c=kIHqKhwO_JCq94l7yg8zkZuY-v-BbiaaRxr-giy97w4="
-            alt="Card image">
-          <div class="card-body">
-            <h4
-              class="text-center effect">Wild Life</h4>
-
-
-          </div>
-        </div>
-
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="card" style="width:100%">
-          <img style="height: 300px;" class="card-img-top"
-            src="https://ca-times.brightspotcdn.com/dims4/default/3eb5306/2147483647/strip/true/crop/5452x3635+0+0/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F46%2F8e%2F6b9d03c9464788198b7dbe16680a%2F974249-tr-kayak-la-river-0002.jpg"
-            alt="Card image">
-          <div class="card-body">
-            <h4
-             class="text-center effect">Picnic spot</h4>
-
-
-          </div>
-        </div>
-
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="card" style="width:100%">
-          <img style="height: 300px;" class="card-img-top" src="https://images.unsplash.com/photo-1654673285799-272434e0ef00?ixid=M3wxMzcxOTN8MHwxfHNlYXJjaHwzMnx8a296aGlrb2RlfGVufDB8fHx8MTcxMDA0ODkwOHww&ixlib=rb-4.0.3&fm=jpg&w=4000&h=3000&fit=max"
-            alt="Card image">
-          <div class="card-body">
-            <h4
-            class="text-center effect">City Area</h4>
-
-
-          </div>
-        </div>
-
-      </div>
     </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card" style="width:100%">
+        <img style="height: 300px; border-radius: 20px;" class="card-img-top"
+          src="https://www.keralatourism.org/images/malabar/static-banner/large/Hill_Stations_of_Malabar-10122019110149.jpg"
+          alt="Card image">
+        <div class="card-body">
+          <h4 class=" text-center effect">Hill Station</h4>
+
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card" style="width:100%">
+        <img style="height: 300px; border-radius: 20px;" class="card-img-top"
+          src="https://www.keralatourism.org/images/malabar/static-banner/large/Waterfalls_of_Malabar-28022020103914.jpg"
+          alt="Card image">
+        <div class="card-body">
+          <h4 class="text-center effect">Waterfalls</h4>
+
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4 col-sm-12 mt-4">
+      <div class="card" style="width:100%">
+        <img style="height: 300px; border-radius: 20px;" class="card-img-top"
+          src="https://media.istockphoto.com/id/1489566726/photo/leopard-in-sri-lanka.jpg?s=612x612&w=0&k=20&c=kIHqKhwO_JCq94l7yg8zkZuY-v-BbiaaRxr-giy97w4="
+          alt="Card image">
+        <div class="card-body">
+          <h4 class="text-center effect">Wild Life</h4>
+
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4 col-sm-12 mt-4">
+      <div class="card" style="width:100%">
+        <img style="height: 300px; border-radius: 20px;" class="card-img-top"
+          src="https://ca-times.brightspotcdn.com/dims4/default/3eb5306/2147483647/strip/true/crop/5452x3635+0+0/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F46%2F8e%2F6b9d03c9464788198b7dbe16680a%2F974249-tr-kayak-la-river-0002.jpg"
+          alt="Card image">
+        <div class="card-body">
+          <h4 class="text-center effect">Picnic spot</h4>
+
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4 col-sm-12 mt-4">
+      <div class="card" style="width:100%">
+        <img style="height: 300px; border-radius: 20px;" class="card-img-top"
+          src="https://images.unsplash.com/photo-1654673285799-272434e0ef00?ixid=M3wxMzcxOTN8MHwxfHNlYXJjaHwzMnx8a296aGlrb2RlfGVufDB8fHx8MTcxMDA0ODkwOHww&ixlib=rb-4.0.3&fm=jpg&w=4000&h=3000&fit=max"
+          alt="Card image">
+        <div class="card-body">
+          <h4 class="text-center effect">City Area</h4>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
   </div>
   <div class="container">
     <h1 class="h1" id="about">About <span style="color: gold;">us</span></h1>
-    <p class="paragrahp">Also known as Calicut, is a city along the Malabar Coast in the state of Kerala in India. Known as the City of
+    <p class="paragrahp">Also known as Calicut, is a city along the Malabar Coast in the state of Kerala in India. Known
+      as the City of
       Spices,Kozhikode is listed among the UNESCO's Cities of Literature.
 
       It has a corporation limit population of 609,224 and a metropolitan population of more than 2 million, making
